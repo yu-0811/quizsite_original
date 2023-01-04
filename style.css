@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* comon */
+h1,
+header{
+  margin: 0;
+}
+
+/* header */
+.header{
+  padding: 32px;
+  margin-bottom: 60px;
+  background: #efefef;
+}
+
+/* quiz */
+.question{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.input{
+  display: flex;
+  margin: 0 auto; /* ブロック要素はmargin:0 auto、インライン要素はtac */
+  min-width: 400px;
+  min-height: 40px;
+  border-radius: 5px;
+  border-color: #c0c0c0;
+  font-size: 24px;
+}
+
+.btn{
+  display: block;
+  margin: 10px auto 0;
+  padding: 12px 26px;
+  color: #fff;
+  background-color:#333 ;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0 #bbb;
+  transition: box-shadow .25s;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0 #bbb;
+}
